@@ -46,7 +46,7 @@
 
 (def github-url "https://github.com/comamitc/pretty-print.net")
 (def issues-url "https://github.com/comamitc/pretty-print.net/issues")
-(def docs-url "https://github.com/comamitc/pretty-print.net/blob/master/README.md")
+(def docs-url "/about.html")
 
 (quiescent/defcomponent footer-docs-list []
   (sablono/html
@@ -184,6 +184,9 @@
       [:div.body-outer-7cb5e
             [:div.body-inner-40af1
               [:h2.instructions-b15d3 (str "Paste " (:desc state) ":")]
+              [:div
+               "Paste EDN data or Clojure code below to have it validated and properly formatted"
+               ]
               (LeftBody state)
               (RightBody state) 
               [:div.clr-217e3]]]
