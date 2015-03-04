@@ -46,7 +46,7 @@
 
 (def github-url "https://github.com/comamitc/pretty-print.net")
 (def issues-url "https://github.com/comamitc/pretty-print.net/issues")
-(def docs-url "https://github.com/comamitc/pretty-print.net/blob/master/README.md")
+(def docs-url "/about.html")
 
 (quiescent/defcomponent footer-docs-list []
   (sablono/html
